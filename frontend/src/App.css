@@ -1,0 +1,88 @@
+/* Navbar */
+nav {
+  background-color: #333;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 5px;
+}
+
+/* ProductCard */
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.product-card p {
+  margin: 5px 0;
+}
+
+.product-card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background-color: #0056b3;
+}
+
+/* QualityAssurance */
+.quality-assurance {
+  margin-top: 10px;
+}
+
+.quality-assurance p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.quality-assurance .eco-friendly {
+  color: green;
+}
+
+.quality-assurance .not-eco-friendly {
+  color: red;
+}
